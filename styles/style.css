@@ -174,7 +174,7 @@ p {
 a {
   color: #1EAEDB; }
 a:hover {
-  color: #0FA0CE; }
+  color: #000; }
 
 
 /* Buttons
@@ -442,7 +442,33 @@ background-color: white;
 }
 //END OF SLIDEBAR!!!
 
+footer {
+  clear: both;
+}
 
+#othersection {
+  display: inline-block;
+}
+
+.magicons {
+  padding: 15px;
+  font-size: 40px;
+  width: 115px;
+  height: 115px;
+  text-align: center;
+  text-decoration: none;
+  margin: 13px 2px;
+  border-radius: 50%;
+
+  background-image: url("7ae227_f14f747fd3f8415482333b7a4ebffbf9.jpg");
+  background-position: fixed;
+  background-repeat: no-repeat;
+
+}
+
+.magicons:hover {
+    opacity: 0.5;
+}
 
 /* Forms
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
