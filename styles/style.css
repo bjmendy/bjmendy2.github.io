@@ -57,6 +57,10 @@ background-repeat: no-repeat;
     padding: 0; }
 }
 
+// .column-left{ float: left; width: 33%; }
+// .column-right{ float: right; width: 33%; }
+// .column-center{ display: inline-block; width: 33%; }
+
 /* For devices larger than 550px */
 @media (min-width: 550px) {
   .container {
@@ -318,10 +322,6 @@ background-color: white;
   display: flex;
 
 }
-
-.column-left{ float: left; width: 33%; }
-.column-right{ float: right; width: 33%; }
-.column-center{ display: inline-block; width: 33%; }
 
 .pics {
   padding: 15px;
