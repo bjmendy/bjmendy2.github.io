@@ -444,6 +444,8 @@ footer {
 
 #othersection {
   display: inline-block;
+  background-image: "improv.jpg";
+  background-position: center;
 }
 
 .magicons {
