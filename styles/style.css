@@ -447,6 +447,14 @@ footer {
   clear: both;
 }
 
+#footer {
+  background-image: url("7ae227_f14f747fd3f8415482333b7a4ebffbf9.jpg");
+  overflow: auto;
+  background-position: fixed;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
 #othersection {
   display: inline-block;
 }
