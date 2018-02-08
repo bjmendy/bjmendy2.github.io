@@ -322,6 +322,12 @@ background-color: white;
 background-color: white;
 }
 
+.measure {
+  background-color: #ff9bcd;
+  color: #ff9bcd;
+  padding: 10px;
+}
+
 // PROJECTS CONTAINER
 .projectsclass {
   display: flex;
