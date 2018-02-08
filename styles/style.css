@@ -325,6 +325,13 @@ background-color: white;
 .measure {
   background-color: #ff9bcd;
   color: #ff9bcd;
+  font-size: 20px;
+}
+
+.measure2 {
+  background-color: white;
+  color: white;
+  font-size: 20px;
 }
 
 // PROJECTS CONTAINER
