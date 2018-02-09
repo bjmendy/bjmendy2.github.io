@@ -320,6 +320,7 @@ background-color: white;
 
 #middlehalfcontainer2 {
 background-color: white;
+display: flex;
 }
 
 .measure {
