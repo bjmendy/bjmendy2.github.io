@@ -310,12 +310,13 @@ input[type="button"].button-primary:focus {
 
 // MIDDLE WHOLE CONTAINER
 #middlewholecontainer {
-  display: inline;
+  display: block;
   background-color: white;
 }
 
 #middlehalfcontainer {
 background-color: white;
+display: inline;
 }
 
 #middlehalfcontainer2 {
