@@ -310,25 +310,18 @@ input[type="button"].button-primary:focus {
 
 // MIDDLE WHOLE CONTAINER
 #middlewholecontainer {
-  display: block;
+  display: inline;
   background-color: white;
 }
 
 #middlehalfcontainer {
 background-color: white;
-display: inline;
 }
 
 #middlehalfcontainer2 {
 background-color: white;
-display: inline;
 }
 
-.measure {
-  background-color: #ffffff;
-  color: #ff9bcd;
-  font-size: 20px;
-}
 
 // PROJECTS CONTAINER
 .projectsclass {
