@@ -316,10 +316,12 @@ input[type="button"].button-primary:focus {
 
 #middlehalfcontainer {
 background-color: white;
+float: left;
 }
 
 #middlehalfcontainer2 {
 background-color: white;
+float:left;
 }
 
 
