@@ -336,7 +336,7 @@ padding: 2px;
 }
 
 .publicistcontainer {
-  display: inline;
+  display: inline-block;
   clear: both;
   float: right;
 
