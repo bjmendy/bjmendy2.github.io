@@ -52,7 +52,7 @@ background-attachment: fixed;
 }
 
 #photoofme {
-  background-image: 
+  float: left;
 }
 
 /* For devices larger than 400px */
@@ -94,7 +94,7 @@ background-attachment: fixed;
   .one-third.column               { width: 30.6666666667%; }
   .two-thirds.column              { width: 65.3333333333%; }
 
-  .one-half.column                { width: 48%; }
+  .one-half.column                { width: 46%; }
 
   /* Offsets */
   .offset-by-one.column,
@@ -126,7 +126,7 @@ background-attachment: fixed;
   .offset-by-two-thirds.columns   { margin-left: 69.3333333333%; }
 
   .offset-by-one-half.column,
-  .offset-by-one-half.columns     { margin-left: 52%; }
+  .offset-by-one-half.columns     { margin-left: 50%; }
 
 }
 
@@ -153,7 +153,7 @@ body {
 /* Typography
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 h1, h2, h3, h4, h5, h6 {
-  margin-top: 0;
+  margin-top: 1px;
   margin-bottom: 2rem;
   font-weight: 300; }
 h1 { font-size: 4.0rem; line-height: 1.2;  letter-spacing: -.1rem; font-family: 'Quicksand', sans-serif;}
@@ -309,6 +309,7 @@ input[type="button"].button-primary:focus {
 }
 
 // MIDDLE WHOLE CONTAINER
+
 #middlewholecontainer {
   display: inline;
   background-color: white;
@@ -317,23 +318,36 @@ input[type="button"].button-primary:focus {
 #middlehalfcontainer {
 background-color: white;
 float: left;
+padding: 2px;
+
 }
 
 #middlehalfcontainer2 {
 background-color: white;
-float:left;
+float: right;
+padding: 2px;
 }
 
 
 // PROJECTS CONTAINER
 .projectsclass {
-  display: flex;
+  display: inline;
 
 }
 
 .publicistcontainer {
-  display: flex;
+  display: inline;
+  clear: both;
+  float: right;
 
+
+}
+
+.prprojects {
+  display: inline-block;
+  padding: 9px;
+  margin: 8px;
+  align-items: center;
 }
 
 .pics {
@@ -343,7 +357,7 @@ float:left;
   height: 225px;
   text-align: center;
   text-decoration: none;
-  margin: 15px 2px;
+  margin: 10px 2px;
   border-radius: 50%;
 
   background-image: url("7ae227_f14f747fd3f8415482333b7a4ebffbf9.jpg");
@@ -461,10 +475,17 @@ footer {
   background-position: fixed;
   background-repeat: no-repeat;
   background-attachment: fixed;
+  clear: both;
 }
 
 #othersection {
-  display: inline-block;
+  display: inline;
+  float: right;
+}
+
+#other2 {
+  display: inline;
+  float: right;
 }
 
 .magicons {
@@ -474,7 +495,7 @@ footer {
   height: 115px;
   text-align: center;
   text-decoration: none;
-  margin: 13px 2px;
+  margin: 13px 4px;
   border-radius: 50%;
 
   background-image: url("7ae227_f14f747fd3f8415482333b7a4ebffbf9.jpg");
